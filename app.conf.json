@@ -1,0 +1,24 @@
+{
+    "appName": "BTSID Agung Effendi",
+    "baseURL": "http://localhost:1205",
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "postgres",
+        "pass": "masukaja",
+        "name": "BTSID_AGUNG_EFFENDI",
+        "max_idle_connection": 30,
+        "max_lifetime_connection": 30
+    },
+    "server": {
+        "port": 1205,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "jwt": {
+        "token_secret": "BTSAGUNGEFFENDI",
+        "expired_duration": 18000
+    }
+}
